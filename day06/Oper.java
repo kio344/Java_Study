@@ -9,9 +9,9 @@ public class Oper {
 		
 		//data = data + 1;
 		//data += 1;
-		//ÀüÀ§Çü
+		//ì „ìœ„í˜•
 		System.out.println(--data);
-		//ÈÄÀ§Çü
+		//í›„ìœ„í˜•
 		//System.out.println(data++);
 //		System.out.println(data);
 		
