@@ -5,7 +5,7 @@ public class Gnr {
 		GTest<String> g = new GTest<>();
 		GTest<Integer> g2 = new GTest<>();
 		
-		g.setData("¾È³ç");
+		g.setData("ì•ˆë…•");
 		g2.setData(new Integer(10));
 		
 		System.out.println(g.getData());
@@ -13,7 +13,7 @@ public class Gnr {
 		System.out.println(GTest2.function(3.9));
 		System.out.println(GTest2.function(3.9F));
 		System.out.println(GTest2.function(10));
-		System.out.println(GTest2.function('A'));
-		System.out.println(GTest2.function("ÇÑµ¿¼®"));
+		System.out.println(GTest2.function('B'));
+		System.out.println(GTest2.function("ê¹€ë¯¼í˜¸"));
 	}
 }
