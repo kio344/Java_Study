@@ -3,7 +3,7 @@ package day34;
 public class Pig implements Runnable{
 	
 	void sound_pig() {
-		System.out.println("??");
+		System.out.println("꿀꿀");
 	}
 	
 	@Override
