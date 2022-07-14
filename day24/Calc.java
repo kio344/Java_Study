@@ -21,7 +21,7 @@ public class Calc {
 		System.out.println(num1+num2);
 	}
 	
-	//³ª´°¼À ¸Þ¼­µå(try catch)
+	//ë‚˜ëˆ—ì…ˆ ë©”ì„œë“œ(try catch)
 	/**
 	 * Divide num1 by num2.<br>
 	 * You can see a Message "Divide by zero"<br>
