@@ -1,8 +1,8 @@
 package day22;
 
 public interface Cafe {
-	//¸Ş´ºÆÇ
-	//ÆÇ¸Å
+	//ë©”ë‰´íŒ
+	//íŒë§¤
 	void setMenu(String[] menu);
 	String[] getMenu();
 	void sell(String choice);
