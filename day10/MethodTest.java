@@ -3,7 +3,7 @@ package day10;
 public class MethodTest {
 	
 	int add(int num1, int num2){
-		System.out.println("add¸Þ¼­µå ÀÔ´Ï´Ù.");
+		System.out.println("addë©”ì„œë“œ ìž…ë‹ˆë‹¤.");
 		return num1+num2;
 	}
 	
