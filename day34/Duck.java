@@ -3,7 +3,7 @@ package day34;
 public class Duck implements Runnable{
 	
 	void sound_duck() {
-		System.out.println("?~?!");
+		System.out.println("꽥~꽥!");
 	}
 	
 	@Override
