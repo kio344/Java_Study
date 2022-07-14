@@ -11,6 +11,6 @@ public class Single {
 	}
 	
 	public void sayHello() {
-		System.out.println("¾È³ç");
+		System.out.println("ì•ˆë…•");
 	}
 }
