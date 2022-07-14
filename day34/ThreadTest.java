@@ -2,11 +2,11 @@ package day34;
 
 public class ThreadTest {
 	public static void main(String[] args) {
-		//Thread Å¬·¡½º
-		Thread1 th1 = new Thread1("¡Ú");
-		Thread1 th2 = new Thread1("¢¾");
+		//Thread í´ë˜ìŠ¤
+		Thread1 th1 = new Thread1("â˜…");
+		Thread1 th2 = new Thread1("â™¥");
 		
-		//Runnable ÀÎÅÍÆäÀÌ½º
+		//Runnable ì¸í„°í˜ì´ìŠ¤
 		Thread2 t1 = new Thread2("!");
 		Thread2 t2 = new Thread2("?");
 		Thread thread1 = new Thread(t1);
