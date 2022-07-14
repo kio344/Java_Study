@@ -16,9 +16,9 @@ public class PrintTest {
 		 * 
 		 */
 		
-		System.out.print("한동석\n");
+		System.out.print("김민호\n");
 		System.out.println("남자");
-		System.out.println("12월04일");
+		System.out.println("3월03일");
 		
 	}
 }
