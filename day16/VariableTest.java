@@ -1,7 +1,7 @@
 package day16;
 
 public class VariableTest {
-	//Àü¿ª º¯¼ö
+	//ì „ì—­ ë³€ìˆ˜
 	static int data = 0;
 	
 	void f() {
