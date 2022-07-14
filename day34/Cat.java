@@ -3,7 +3,7 @@ package day34;
 public class Cat implements Runnable{
 	
 	void sound_cat() {
-		System.out.println("??~");
+		System.out.println("야옹~");
 	};
 	
 	@Override
