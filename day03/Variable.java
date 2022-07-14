@@ -8,7 +8,7 @@ public class Variable {
 		double d2 = 1.23D;
 		float f = 1.25F;
 		char c = 'B';
-		String s = "±è¹ÎÈ£";
+		String s = "ê¹€ë¯¼í˜¸";
 		
 //		System.out.println(i);
 //		System.out.println(l);
