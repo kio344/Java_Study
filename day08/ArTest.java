@@ -15,7 +15,7 @@ public class ArTest {
 		
 //		for (int i = 0; i < arPrice.length; i++) {
 //			if(arPrice[i] == 2000) {
-//				System.out.println("ÄÝ¶ó°¡ ÀÖ½À´Ï´Ù.");
+//				System.out.println("ì½œë¼ê°€ ìžˆìŠµë‹ˆë‹¤.");
 //			}
 //		}
 		
