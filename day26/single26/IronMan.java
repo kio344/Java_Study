@@ -11,11 +11,11 @@ public class IronMan {
 	}
 	
 	public static void fight(){
-		System.out.println("ºö ¹ß»ç");
+		System.out.println("ë¹” ë°œì‚¬");
 	}
 	
 	public void walk() {
-		System.out.println("³¯¾Æ°£´Ù.");
+		System.out.println("ë‚ ì•„ê°„ë‹¤.");
 	}
 	
 }
