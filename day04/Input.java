@@ -7,8 +7,8 @@ public class Input {
 		String name = "";
 		String lastName = "";
 		Scanner sc = new Scanner(System.in);
-		//A.b : A¾È¿¡ b
-		System.out.println("ÀÌ¸§ÀÌ ¹¹´Ï?");
+		//A.b : Aì•ˆì— b
+		System.out.println("ì´ë¦„ì´ ë­ë‹ˆ?");
 		name = sc.nextLine();
 //		name = sc.next();
 //		lastName = sc.next();
