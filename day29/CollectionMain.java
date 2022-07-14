@@ -11,23 +11,23 @@ import java.util.List;
 public class CollectionMain {
 
 	public static void main(String[] args) throws ParseException {
-		System.out.println("Collection ÀÇ ¸Ş¼Òµåµé");
+		System.out.println("Collection ì˜ ë©”ì†Œë“œë“¤");
 
 		List<String> list1 = new LinkedList<String>();
-		list1.add("Àå±æ»ê");
-		list1.add("±èÃ¶¼ö");
-		list1.add("±¸ÀÚÃ¶");
+		list1.add("ê¹€ë¯¼í˜¸");
+		list1.add("íƒì •ëª¨");
+		list1.add("ì •ë¯¼ìƒ");
 		
 		System.out.println(list1.toString());
 		
 		// sort()
-		// ±âº»ÀûÀ¸·Î ¼Óµµ°¡ ºñ±³Àû ºü¸£°í ¾ÈÁ¤¼ºÀÌ º¸ÀåµÇ´Â Merge Sort »ç¿ë
-		System.out.println("sort() »ç¿ë");
+		// ê¸°ë³¸ì ìœ¼ë¡œ ì†ë„ê°€ ë¹„êµì  ë¹ ë¥´ê³  ì•ˆì •ì„±ì´ ë³´ì¥ë˜ëŠ” Merge Sort ì‚¬ìš©
+		System.out.println("sort() ì‚¬ìš©");
 		Collections.sort(list1);
 		System.out.println(list1.toString());
 		
 		
-		// shuffle(¼¯±â)
+		// shuffle(ì„ê¸°)
 		System.out.println("\nshuffle()\n");
 		Collections.shuffle(list1);
 		System.out.println(list1.toString());
@@ -57,14 +57,14 @@ public class CollectionMain {
 		
 		System.out.println(list3.toString());
 		
-		Collections.sort(list3);   // ±×³ÉÀº sort ºÒ°¡... Comparable<T> °¡ ±¸ÇöµÇ¾î¾ß »ç¿ë °¡´É!
-											// String, Date, Integer ´Â ÀÌ¹Ì Comparable ÀÌ ±¸ÇöµÇ¾î ÀÖ´Â °´Ã¼´Ù!
+		Collections.sort(list3);   // ê·¸ëƒ¥ì€ sort ë¶ˆê°€... Comparable<T> ê°€ êµ¬í˜„ë˜ì–´ì•¼ ì‚¬ìš© ê°€ëŠ¥!
+											// String, Date, Integer ëŠ” ì´ë¯¸ Comparable ì´ êµ¬í˜„ë˜ì–´ ìˆëŠ” ê°ì²´ë‹¤!
 		
 		
 		System.out.println(list3.toString());
 		
-		// Comparator<> Àû¿ë
-		System.out.println("Comparator<> Àû¿ë");
+		// Comparator<> ì ìš©
+		System.out.println("Comparator<> ì ìš©");
 		Collections.sort(list3, new Asc());
 		System.out.println(list3.toString());
 		
@@ -94,18 +94,18 @@ class Student implements Comparable<Student>{
 	
 	@Override
 	public String toString() {
-		return this.name + " : " + this.point + "Á¡";
+		return this.name + " : " + this.point + "ì ";
 	}
 
-	// compateTo() ¸Ş¼Òµå´Â ¸Å°³º¯¼ö °´Ã¼¸¦ ÇöÀçÀÇ °´Ã¼¿Í ºñ±³ÇÏ¿© ÀÛÀ¸¸é 'À½¼ö', °°À¸¸é '0', Å©¸é '¾ç¼ö'¸¦ ¸®ÅÏ
+	// compateTo() ë©”ì†Œë“œëŠ” ë§¤ê°œë³€ìˆ˜ ê°ì²´ë¥¼ í˜„ì¬ì˜ ê°ì²´ì™€ ë¹„êµí•˜ì—¬ ì‘ìœ¼ë©´ 'ìŒìˆ˜', ê°™ìœ¼ë©´ '0', í¬ë©´ 'ì–‘ìˆ˜'ë¥¼ ë¦¬í„´
 	@Override
 	public int compareTo(Student o) {
-		// ³»¸²Â÷¼ø
+		// ë‚´ë¦¼ì°¨ìˆœ
 //		if(o.point < this.point) return -1;
 //		if(this.point > o.point) return 1;
 //		return 0;
 		
-		// ¿À¸§Â÷¼ø
+		// ì˜¤ë¦„ì°¨ìˆœ
 		if(o.point > this.point) return -1;
 		if(this.point < o.point) return 1;
 		return 0;
