@@ -13,7 +13,7 @@ public class Encryption {
 		String pw = null;
 		System.out.println("PW : ");
 		pw = new Scanner(System.in).next();
-		System.out.println("¾ÏÈ£È­ µÈ PW : ");
+		System.out.println("ë³€ê²½ëœ PW : ");
 		for (int i = 0; i < pw.length(); i++) {
 			System.out.print((char)(pw.charAt(i)-10));
 		}
