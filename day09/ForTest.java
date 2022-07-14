@@ -2,7 +2,7 @@ package day09;
 
 public class ForTest {
 	public static void main(String[] args) {
-		// ±¸±¸´Ü 1´Ü ~ 9´Ü±îÁö for¹®
+		// êµ¬êµ¬ë‹¨ 1ë‹¨ ~ 9ë‹¨ê¹Œì§€ forë¬¸
 //		for (int i = 1; i < 90; i++) {
 //			if(i % 10 == 0) {
 //				i++;
