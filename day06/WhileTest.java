@@ -6,12 +6,12 @@ public class WhileTest {
 //		int cnt = 0;		
 //		
 //		while(cnt != 10) {
-//			System.out.println(cnt+1+"ÇÑµ¿¼®");
+//			System.out.println(cnt+1+"ê¹€ë¯¼í˜¸");
 //			cnt++;
 //		}
 		
 		while(true) {
-			System.out.println("ÇÑµ¿¼®");
+			System.out.println("ê¹€ë¯¼í˜¸");
 		}
 		
 		
